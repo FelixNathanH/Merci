@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="account_style.css">
+    <script src="account.js"></script>
+</head>
+<body>
+   
+    <div class="navbar">
+        <a href="home.html" ><img src="Assets/Logo.PNG" alt="" id="main_logo"></a>
+        <div id="link_container">
+            <a href="home.html" class="page_link" id="home link">Home</a>
+            <a href="Catalog.html" class="page_link">Catalog</a>
+            <a href="account.html" class="page_link">Account</a>
+            <a href="about.html" class="page_link">About</a>
+        </div>
+    </div>
+
+    <img src="https://www.supercars.net/blog/wp-content/uploads/2020/11/2021-Mercedes-AMG-E63-S-007-2160-1-scaled.jpg" alt="" id="wallpaper">
+
+    <div id="border">.</div>
+
+        <div class="acc_box">
+            <div class="message">
+                <h1 id="title">Welcome!</h1>
+                <br>
+                <h2>Enter your details and join our community</h2>
+                <br>
+                
+                <p id="errormessages"></p>
+            </div>
+            
+            <form id="myform">
+                <label for="fullname">Full Name</label><br>
+                <input id="fullname" type="text" name="fullname">
+                <br>
+                <label for="email">email</label><br>
+                <input id="email" type="text" name="email">
+                <br>
+                <label for="upassword">password</label><br>
+                <input id="upassword" type="password" name="upassword">
+                <br>
+                <label class="label" for="phonenumber">Phone Number</label><br>
+                <input class="input" id="phonenumber" type="text" name="phonenumber">
+                <br>
+                <label class="label" for="address">Address</label><br>
+                <input class="input" id="address" type="text" name="address">
+                <br>
+                <label for="agreement"><input id="agreementCB" type="checkbox">I agree to the terms and conditions</label>  
+                <br><br>
+                <button id="submitbtn" type="submit">Submit</button> 
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="footer">
+        <div id="copyright">© 2022. PT Merci Distribution Indonesia. All rights reserved (provider)</div>
+        <div class="socials">
+            <a href=""><img src="assets/facebook.PNG" alt="" class="socmed"></a>
+            <a href=""><img src="assets/instagram.PNG" alt="" class="socmed"></a>
+            <a href=""><img src="assets/twitter.PNG" alt="" class="socmed"></a>
+        </div>
+    </div>
+</body>
+</html>

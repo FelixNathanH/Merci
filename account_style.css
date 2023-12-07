@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(18, 18, 18);
+    top: 0%;
+    width: 100%;
+    display: flex;
+    height: 70px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+#main_logo{
+    height: 65px;
+    margin-top: 5px
+}
+
+#link_container{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.page_link{
+    color: lightgray;
+    text-align: center;
+    align-items: center;
+    position:relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.page_link:hover{
+    color: white;
+    
+}
+
+#border{
+    opacity: 0%;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(18, 18, 18);
+    justify-content: space-between;
+    display: flex;
+    bottom: 0%;
+    height: 65px;
+}
+#copyright{
+    color: white;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.socials{
+    justify-content: right;
+    display: flex
+}
+.socmed{
+    width: 40px;
+    padding: 10px;
+}
+.socmed:hover{
+    width: 45px;
+    padding-top: 5px;
+}
+
+#wallpaper{
+    width:100%;
+    height: 100%;
+    position: fixed;
+    object-fit: cover;
+    
+}
+
+.acc_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 550px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.7);
+    box-sizing: border-box;
+    box-shadow: 0 0px 0px rgba(0,0,0,.6);
+    border-radius: 10px;
+    display: flex;
+}
+
+
+.label{
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.account_form input{
+    align-items: center;
+}
+
+.label{
+    color: white;
+}
+
+.message{
+    padding-right: 20px;
+}
+.message h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    
+}
+.message h2{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+#myform label{
+    color: white;
+}
+#address{
+    height: 40px;
+}
+#errormessages{
+    color: red;
+    font-size: 12px;
+}
